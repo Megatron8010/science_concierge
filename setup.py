@@ -22,7 +22,8 @@ if __name__ == "__main__":
         description = DESCRIPTION,
         license = "Creative Common 4.0",
         keywords = "recommendation system, Latent Semantic Analysis",
-        url = "https://github.com/titipata/science_concierge",
+        url = "https://github.com/Megatron8010/science_concierge",
+        download_url = "https://github.com/Megatron8010/science_concierge/archive/v_01.tar.gz",
         long_description=read('README.md'),
         packages=['science_concierge'],
         install_requires=[            # I get to this in a second
