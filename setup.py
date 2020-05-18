@@ -24,5 +24,14 @@ if __name__ == "__main__":
         keywords = "recommendation system, Latent Semantic Analysis",
         url = "https://github.com/titipata/science_concierge",
         long_description=read('README.md'),
-        packages=['science_concierge', 'science_concierge.hkm_nn'],
+        packages=['science_concierge'],
+        install_requires=[            # I get to this in a second
+          'numpy',
+            'pandas',
+            'unidecode',
+            'nltk',
+            'scikit-learn',
+            'cachetools',
+            'joblib',
+      ],
     )
